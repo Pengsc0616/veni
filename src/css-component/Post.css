@@ -1,0 +1,41 @@
+
+.post {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    /* background-color: rgb(248, 208, 149); */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px black;
+    width: 70%;
+}
+
+.post__top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__topInfo > h3 {
+    font-size: medium;
+}
+
+.post__bottom {
+    font-size: medium;
+    padding: 10px 40px;
+    
+}
+/* .post__bottom > p {
+    margin: 20px 5px;
+    background-color: white;
+} */
+
+.post__image > img {
+    width: 100%;
+}
+

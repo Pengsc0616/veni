@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './component/Header'
+import CreatorSidebar from './component/CreatorSidebar'
+import CreatorIntro from './component/CreatorIntro'
+import CreatorWork from './component/CreatorWork'
+import CreatorPayment from './component/CreatorPayment'
+import CreatorChat from './component/CreatorChat'
+import Login from './component/Login'
+import { useStateValue } from "./component/StateProvider"
 
 function App() {
+  const [ {user}, dispatch] = useStateValue();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {!user ? (
+        <Login />
+      ) : (
+        <>
+      <Header/>
+      <div className="app__body">
+        app__body
+        {/* <CreatorSidebar /> */}
+        <CreatorIntro />
+        <CreatorWork />
+        <CreatorPayment />
+        <CreatorChat />
+      </div>
+      {/* <CreatorChat /> */}
+      </>
+      )}
     </div>
   );
 }

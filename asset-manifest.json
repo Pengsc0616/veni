@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pengsc0616/veni/static/css/main.d8fd3a65.chunk.css",
+    "main.js": "/Pengsc0616/veni/static/js/main.cec6c94d.chunk.js",
+    "main.js.map": "/Pengsc0616/veni/static/js/main.cec6c94d.chunk.js.map",
+    "runtime-main.js": "/Pengsc0616/veni/static/js/runtime-main.b50d39ec.js",
+    "runtime-main.js.map": "/Pengsc0616/veni/static/js/runtime-main.b50d39ec.js.map",
+    "static/js/2.0353ca70.chunk.js": "/Pengsc0616/veni/static/js/2.0353ca70.chunk.js",
+    "static/js/2.0353ca70.chunk.js.map": "/Pengsc0616/veni/static/js/2.0353ca70.chunk.js.map",
+    "static/js/3.7ca2f35f.chunk.js": "/Pengsc0616/veni/static/js/3.7ca2f35f.chunk.js",
+    "static/js/3.7ca2f35f.chunk.js.map": "/Pengsc0616/veni/static/js/3.7ca2f35f.chunk.js.map",
+    "index.html": "/Pengsc0616/veni/index.html",
+    "static/css/main.d8fd3a65.chunk.css.map": "/Pengsc0616/veni/static/css/main.d8fd3a65.chunk.css.map",
+    "static/js/2.0353ca70.chunk.js.LICENSE.txt": "/Pengsc0616/veni/static/js/2.0353ca70.chunk.js.LICENSE.txt",
+    "static/media/artist1.235c8c51.png": "/Pengsc0616/veni/static/media/artist1.235c8c51.png",
+    "static/media/logo.607f2da0.png": "/Pengsc0616/veni/static/media/logo.607f2da0.png",
+    "static/media/quote.f21f2110.png": "/Pengsc0616/veni/static/media/quote.f21f2110.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b50d39ec.js",
+    "static/js/2.0353ca70.chunk.js",
+    "static/css/main.d8fd3a65.chunk.css",
+    "static/js/main.cec6c94d.chunk.js"
+  ]
+}
